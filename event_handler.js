@@ -1,4 +1,4 @@
-// Functional Component
+// Pendekatan Functional Component
 function CounterFunctional() {
   const [count, setCount] = React.useState(0);
 
@@ -15,7 +15,7 @@ function CounterFunctional() {
   );
 }
 
-// Class Component
+// Pendekatan Class Component
 class CounterClass extends React.Component {
   constructor(props) {
     super(props);
@@ -52,5 +52,4 @@ function App() {
   );
 }
 
-// Render ke root
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
